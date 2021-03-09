@@ -26,7 +26,7 @@ img {
 .header__rectangle {
   position: absolute;
   top: 0;
-  right: -3%;
+  right: -5%;
   height: 100%;
 }
 
@@ -777,6 +777,10 @@ img {
   height: 56%;
 }
 
+.thanks-pic-mob {
+  display: none;
+}
+
 .thanks-header {
   position: relative;
   background-image: url(../img/desktop/thanks-page/ellipse.png);
@@ -793,6 +797,8 @@ img {
 }
 
 .thanks-content__title {
+  margin: 0;
+  margin-bottom: 32px;
   font-weight: bold;
   font-size: 40px;
   line-height: 1.2;

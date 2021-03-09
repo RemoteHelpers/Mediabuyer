@@ -1,3 +1,62 @@
+@media (min-width: 1300px) {
+  .header__rectangle {
+    right: -3%;
+  }
+
+  .content-wrapper {
+    background-position: right 40% top 0;
+  }
+}
+
+@media (min-width: 1400px) {
+
+  .header__rectangle {
+    right: 45px;
+  }
+
+  .container {
+    max-width: 100%;
+    margin: 0 120px;
+  }
+
+  .skills__pic {
+    right: -2%;
+  }
+
+  .expectations__pic {
+    right: 0;
+  }
+
+  .thanks-pic {
+    left: -15%;
+  }
+}
+
+@media (min-width: 1500px) {
+
+  .thanks-pic {
+    left: -7%;
+  }
+}
+
+@media (min-width: 1650px) {
+  .thanks-pic {
+    left: 0;
+  }
+}
+
+@media (min-width: 1700px) {
+  .content-wrapper {
+    background-position: right 30% top 0;
+  }
+}
+
+@media (max-width: 1300px) {
+  .thanks-header {
+    background-image: none;
+  }
+}
+
 @media (max-width: 1050px) {
   .header__rectangle {
     display: none;
@@ -98,18 +157,27 @@
     display: none;
   }
 
-  /* .footer-block__desc {
-    max-width: 200px;
+  .thanks-pic {
+    display: none;
+    /* position: absolute;
+    top: 0;
+    left: -22%;
+    height: 56%; */
+  }
+  
+  .thanks-pic-mob {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 50%;
   }
 
-  .footer-block__tel img {
-    margin-right: 10px;
+  .thanks-content {
+    margin-left: 0;
+    margin-right: auto;
+    margin-top: 150px;
   }
-
-  .footer-block__adress img {
-    margin-right: 10px;
-  }
-} */
 
 @media (max-width: 800px) {
 
@@ -381,6 +449,29 @@
     .footer-block__socials-link + .footer-block__socials-link {
       margin-left: 10px;
     }
+
+    .thanks-header {
+      padding-bottom: 220px;
+    }
+
+    .thanks-content {
+      margin-top: 50px;
+      width: 350px;
+    }
+
+    .button--arrow-left {
+      padding: 12px;
+      padding-left: 45px;
+      padding-right: 22px;
+    }
+
+    .thanks-content__link {
+      font-size: 14px;
+    }
+
+    .thanks-content__link::before {
+      left: 16px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -530,6 +621,22 @@
 
     .footer-block__copyright {
       display: none;
+    }
+
+    .thanks-content {
+      width: 220px;
+    }
+
+    .thanks-content__title {
+      font-size: 24px;
+    }
+
+    .thanks-content__text {
+      font-size: 14px;
+    }
+
+    .thanks-pic-mob {
+      height: 52%;
     }
 
 }
